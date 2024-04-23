@@ -29,10 +29,11 @@ admin_menu_welcoming =\
 		"""
 		Welcome to Administrator Interface
 		Choose one of these options:
-		1. Add user account
-		2. Edit user account
-		3. Remove user account
-		4. Exit
+        	1. Display user database
+		2. Add user account
+		3. Edit user account
+		4. Remove user account
+		5. Exit
 		"""
 
 transaction_option =\

@@ -3,7 +3,7 @@ from roulette_database import *
 
 # CREATE DATABASE FOR USERS AND ADMIN
 user_database = [
-	   			{"id": 1,"username": "a", "password": "a", "balance": 1000, "logs": []},
+	   			{"id": 1,"username": "officiel", "password": "off", "balance": 1000, "logs": []},
 				{"id": 2, "username": "sadiomane", "password": "allhailsenegal", "balance": 1000, "logs": []},
 				{"id": 3, "username": "mosalah", "password": "youllneverwalkalone", "balance": 1000, "logs": []},
 				{"id": 4,"username": "mesutoezil", "password": "comeonyougunners", "balance": 1000, "logs": []},
@@ -12,7 +12,7 @@ user_database = [
 admin = {"username": "godofgamble", "password": "go"}
 
 # this dict is for message option num, you have to update this every time you add something to the message file
-message_option_num_dict = {"login_welcoming": 3, "main_menu_welcoming": 5, "admin_menu_welcoming": 4, "transaction_option" : 3, "history_display": 5, "sort_option": 4, "asc_desc": 2, "filter_option": 4,
+message_option_num_dict = {"login_welcoming": 3, "main_menu_welcoming": 5, "admin_menu_welcoming": 5, "transaction_option" : 3, "history_display": 5, "sort_option": 4, "asc_desc": 2, "filter_option": 4,
 								"filter_spec_num": 6, "filter_spec_cat": 4, "transaction_option": 3, "edit_user_option": 3, "quit_prompt_option": 2, "transaction_option": 3, "place_or_stop_option": 2,
 								"place_or_discard_option": 2, "betting_type_option": 10, "game_manual_or_play": 3, "stop_slot_option": 3,
 								}

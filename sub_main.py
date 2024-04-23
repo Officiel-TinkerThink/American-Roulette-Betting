@@ -90,7 +90,7 @@ def user_id_check():
 	"""
 	while True:
 		try:
-			id = int(input("Enter id of the account you wanna edit: "))
+			id = int(input("Enter id of the account: "))
 		except ValueError:
 			print("Invalid input")
 			continue
@@ -107,6 +107,8 @@ def admin_menu():
 		# display admin menu and asking for user input for what option to choose
 		user_input = menu_display("admin_menu_welcoming", out_of_num=True)
 		if user_input == 1:
+			show_user_database()
+		elif user_input == 2:
 			while True:
 				new_username = input("Enter username for new account: ")
 				usernames = [user["username"] for user in user_database]
@@ -121,8 +123,9 @@ def admin_menu():
 						new_user = {"id": new_id, "username": new_username, "password": new_password, "balance": 1000, "logs": []}
 						user_database.append(new_user)
 						print("Succesfully added new users")
+						show_user_database(user_id=new_id)
 						break
-		elif user_input == 2:
+		elif user_input == 3:
 			show_user_database()
 			# ask user to input user_id and screening it
 			user_id, index = user_id_check()
@@ -135,12 +138,13 @@ def admin_menu():
 				account_change(user_id=user_id, index=index)
 			else:
 				print("You Enter the wrong input, automatically exit ")
-		elif user_input == 3:
+		elif user_input == 4:
+			show_user_database()
 			user_id, index = user_id_check()
 			user_database.pop(index)
 			print("account has been removed")
 			show_user_database()
-		elif user_input == 4:
+		elif user_input == 5:
 			break
 
 
