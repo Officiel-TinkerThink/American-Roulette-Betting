@@ -41,8 +41,8 @@ Welcome to the American Roulette Betting Game! This terminal-based game allows y
 
 
 ## Acknowledgements :
-Thank you for Purwadhika for providing fascinating course\n
-Thank you also to all my fellow DTI Data Science Students
+   - Thank you for Purwadhika for providing fascinating course
+   - Thank you also to all my fellow DTI Data Science Students
 
 ## Contributors:
 This game created by Wahyu Bornok Augus Sinurat (github account: officiel_tinkerthink)
