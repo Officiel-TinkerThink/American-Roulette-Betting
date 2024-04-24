@@ -31,7 +31,7 @@ Welcome to the American Roulette Betting Game! This terminal-based game allows y
    - Enhanced graphics for a more immersive experience.
 
 ## How to Install and Run the Project
-   - Clone the project repository from <git@github.com:Officiel-TinkerThink/American-Roulette-Betting.git>.
+   - Clone the project repository from [(www.github.com/Officiel-TinkerThink/American-Roulette-Betting/)]
    - Ensure Python installed on the system (version 3.11 or higher)
    - Install the library module as written in the `requirements.txt` file
    - Navigate to the project directory in terminal or command prompt.
